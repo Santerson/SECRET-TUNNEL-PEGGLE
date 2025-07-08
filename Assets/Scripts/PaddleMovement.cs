@@ -8,10 +8,12 @@ public class PaddleMovement : MonoBehaviour
     [SerializeField] private KeyCode K1Right = KeyCode.D;
     [SerializeField] private KeyCode k2Left = KeyCode.LeftArrow;
     [SerializeField] private KeyCode k2Right = KeyCode.RightArrow;
+    [SerializeField] private float speed = 10f;
+    [SerializeField] private Vector2 startingPosition = new Vector2(0f, -4.5f);
     // Start is called before the first frame update
     void Start()
     {
-        transform.position = new Vector2(0f, -4.5f);
+        transform.position = startingPosition;
     }
 
     // Update is called once per frame
@@ -19,11 +21,11 @@ public class PaddleMovement : MonoBehaviour
     {
         if (Input.GetKey(K1Left) || Input.GetKey(k2Left) && transform.position.x > -5.5f)
         {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(-10f, 0f);
+            GetComponent<Rigidbody2D>().velocity = new Vector2(-speed, 0f);
         }
         else if (Input.GetKey(K1Right) || Input.GetKey(k2Right) && transform.position.x < 5.5f)
         {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(10f, 0f);
+            GetComponent<Rigidbody2D>().velocity = new Vector2(speed, 0f);
         }
         else
         {
