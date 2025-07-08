@@ -23,7 +23,7 @@ public class ButtonManager : MonoBehaviour
     }
     public void GoToStartScreen()
     {
-        SceneManager.LoadScene("StartScreen");
+        SceneManager.LoadScene("StartScene");
     }
     
     public void GoToLvl1()
