@@ -31,6 +31,7 @@ public class TeleportBall : MonoBehaviour
         {
             // Teleport the ball to the other side of the screen
             collision.transform.position = TeleportExit.transform.position;
+            FindObjectOfType<PegManager>().DeleteAllPegs();
         }
     }
 }
