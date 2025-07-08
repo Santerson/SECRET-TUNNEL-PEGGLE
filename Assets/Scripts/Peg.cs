@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Peg : MonoBehaviour
 {
-    [SerializeField] private bool isKeyPeg = false;
+    [SerializeField] public bool isKeyPeg = false;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
