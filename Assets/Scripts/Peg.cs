@@ -19,4 +19,9 @@ public class Peg : MonoBehaviour
             hitParticles.Play();
         }
     }
+
+    public void PlayParticles()
+    {
+        hitParticles.Play();
+    }
 }
