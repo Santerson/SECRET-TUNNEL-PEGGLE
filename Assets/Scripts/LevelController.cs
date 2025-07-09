@@ -29,8 +29,9 @@ public class LevelController : MonoBehaviour
         {
             return 0; 
         }
+        
+        lives = lives-newLives;
         CheckLives();
-        lives = lives-newLives; 
         if (livesText != null)
         {
             livesText.text =lives.ToString(); 
