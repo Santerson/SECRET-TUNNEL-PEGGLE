@@ -19,11 +19,11 @@ public class PaddleMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(K1Left) || Input.GetKey(k2Left) && transform.position.x > -5.5f)
+        if (Input.GetKey(K1Left) || Input.GetKey(k2Left) && transform.position.x > -6.1f)
         {
             GetComponent<Rigidbody2D>().velocity = new Vector2(-speed, 0f);
         }
-        else if (Input.GetKey(K1Right) || Input.GetKey(k2Right) && transform.position.x < 5.5f)
+        else if (Input.GetKey(K1Right) || Input.GetKey(k2Right) && transform.position.x < 6.1f)
         {
             GetComponent<Rigidbody2D>().velocity = new Vector2(speed, 0f);
         }
