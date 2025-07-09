@@ -19,7 +19,7 @@ public class LevelController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        CheckLives();
+        
     }
 
     public int SetLives(int newLives) 
