@@ -18,6 +18,8 @@ public class RespawnerBaller : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        int lives = FindAnyObjectByType<LevelController>().lives--;
+
         if (collision.gameObject.CompareTag("Ball"))
         {
             // Reset the position of the Baller to the starting position
@@ -30,4 +32,6 @@ public class RespawnerBaller : MonoBehaviour
             }
         }
     }
+
+
 }
