@@ -18,7 +18,7 @@ public class RespawnerBaller : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        int lives = FindAnyObjectByType<LevelController>().lives--;
+        int lives = FindAnyObjectByType<LevelController>().SetLives(1);
 
         if (collision.gameObject.CompareTag("Ball"))
         {

@@ -19,12 +19,16 @@ public class LevelController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        CheckLives();
     }
 
     public int SetLives(int newLives) 
     {
-        lives = newLives; 
+        if(lives < 0)
+        {
+            return 0; // No lives left, cannot set new lives
+        }
+        lives = lives-newLives; 
         if (livesText != null)
         {
             livesText.text =lives.ToString(); 
