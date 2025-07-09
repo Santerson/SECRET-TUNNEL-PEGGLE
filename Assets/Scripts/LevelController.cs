@@ -13,22 +13,30 @@ public class LevelController : MonoBehaviour
     // Start is called before the first frame update  
     void Start()
     {
-
+        livesText.text = lives.ToString();
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 
     public int SetLives(int newLives) 
     {
-        lives = newLives; 
+        
+        if (lives < 0)
+        {
+            return 0; 
+        }
+        
+        lives = lives-newLives;
+        CheckLives();
         if (livesText != null)
         {
-            livesText.text = "Lives: " + lives; 
+            livesText.text =lives.ToString(); 
         }
+
         return lives;
     }
 
