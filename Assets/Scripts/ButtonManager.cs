@@ -28,7 +28,7 @@ public class ButtonManager : MonoBehaviour
     
     public void GoToLvl1()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Lvl1");
     }
 
     public void GoToTips()
