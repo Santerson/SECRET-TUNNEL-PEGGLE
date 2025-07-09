@@ -24,15 +24,18 @@ public class LevelController : MonoBehaviour
 
     public int SetLives(int newLives) 
     {
-        if(lives < 0)
+        
+        if (lives < 0)
         {
-            return 0; // No lives left, cannot set new lives
+            return 0; 
         }
+        CheckLives();
         lives = lives-newLives; 
         if (livesText != null)
         {
             livesText.text =lives.ToString(); 
         }
+
         return lives;
     }
 
