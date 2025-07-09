@@ -40,4 +40,9 @@ public class ButtonManager : MonoBehaviour
         SceneManager.LoadScene("Credits");
     }
 
+    public void GoToWinScene()
+    {
+               SceneManager.LoadScene("WinScene");
+    }
+
 }
