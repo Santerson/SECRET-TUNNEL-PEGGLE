@@ -15,7 +15,14 @@ public class Peg : MonoBehaviour
         {
             hit = true;
             FindObjectOfType<PegManager>().AddPeg(gameObject);
-            GetComponent<SpriteRenderer>().color = Color.yellow;
+            if (isKeyPeg)
+            {
+                GetComponent<SpriteRenderer>().color = Color.green;
+            }
+            else
+            { 
+                GetComponent<SpriteRenderer>().color = Color.gray;
+            }
             hitParticles.Play();
         }
     }
