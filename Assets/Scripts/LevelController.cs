@@ -44,7 +44,9 @@ public class LevelController : MonoBehaviour
     {
         if(lives <= 0)
         {
+            FindObjectOfType<AudioController>().playmenumusic();
             SceneManager.LoadScene("EndScene");
+
         }
     }
 }
