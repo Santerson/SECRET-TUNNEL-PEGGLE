@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PegManager : MonoBehaviour
 {
     [SerializeField] GameObject pegMasterObject;
+    [SerializeField] int levelnumber;
     private List<GameObject> pegs = new List<GameObject>();
     int keyPegCount = 0;
     // Start is called before the first frame update
@@ -40,6 +42,7 @@ public class PegManager : MonoBehaviour
     {
         Debug.Log("Good job, youre now a disapointment to society D:");
         // Add any additional logic for when all key pegs are collected.
+        SceneManager.LoadScene("Lvl" + (levelnumber + 1));
     }
 
     public void AddPeg(GameObject peg)
