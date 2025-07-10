@@ -21,7 +21,7 @@ public class TopPaddleMovment : MonoBehaviour
     private void Update()
     {
        
-        float xOffset = Mathf.Sin(Time.deltaTime * speed) * amplitude + 3;
+        float xOffset = Mathf.Sin(Time.time * speed) * amplitude;
 
      
         transform.position = startPosition + Vector3.right * xOffset;
