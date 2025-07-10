@@ -28,12 +28,14 @@ public class ButtonManager : MonoBehaviour
     
     public void GoToLvl1()
     {
+        FindObjectOfType<AudioController>().playgamemusic();
         SceneManager.LoadScene("Lvl1");
+
     }
 
     public void GoToTips()
     {
-               SceneManager.LoadScene("Tips");
+        SceneManager.LoadScene("Tips");
     }
     public void GoToCredits()
     {
@@ -42,7 +44,10 @@ public class ButtonManager : MonoBehaviour
 
     public void GoToWinScene()
     {
-               SceneManager.LoadScene("WinScene");
+        FindObjectOfType<AudioController>().playmenumusic();
+        SceneManager.LoadScene("WinScene");
+
+
     }
 
 }
