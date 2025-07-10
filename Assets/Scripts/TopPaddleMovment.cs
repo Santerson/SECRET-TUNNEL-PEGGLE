@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class TopPaddleMovment : MonoBehaviour
 {
-    [SerializeField]
-    private float speed = 4f;
 
     [SerializeField]
     private float amplitude = 100f;
