@@ -10,8 +10,6 @@ public class TopPaddleMovment : MonoBehaviour
     [SerializeField]
     private float amplitude = 3f;
 
-    [SerializeField]
-    private GameObject paddle;
 
     // The original starting position of the object
     private Vector3 startPosition;
