@@ -3133,6 +3133,10 @@ PrefabInstance:
       propertyPath: startingPosition.y
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 2485978073328599120, guid: 84fdbbbc64af58b43807a12a8d755c2c, type: 3}
+      propertyPath: speed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3820352810323188977, guid: 84fdbbbc64af58b43807a12a8d755c2c, type: 3}
       propertyPath: m_SortingOrder
       value: -1
