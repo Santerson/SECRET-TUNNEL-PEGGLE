@@ -6,6 +6,7 @@ public class Peg : MonoBehaviour
 {
     [SerializeField] public bool isKeyPeg = false;
     [SerializeField] private ParticleSystem hitParticles = null;
+    [SerializeField] private AudioSource hitSound = null;
     private bool hit = false;
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -24,6 +25,7 @@ public class Peg : MonoBehaviour
                 GetComponent<SpriteRenderer>().color = Color.gray;
             }
             hitParticles.Play();
+            hitSound.Play();
         }
     }
 
