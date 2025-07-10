@@ -223,7 +223,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 0.94249845, b: 0, a: 1}
+      maxColor: {r: 0.33962262, g: 0.33962262, b: 0.33962262, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -4859,11 +4859,11 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2824784, y: 0.2824784, z: 0.2824784}
+  m_LocalScale: {x: 0.09438733, y: 0.09438733, z: 0.09438733}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6944374010372745455}
   - {fileID: 1084171195826677374}
+  - {fileID: 6944374010372745455}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5826283698235596786
@@ -4907,7 +4907,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 76def0f5366c56849814a91732e160de, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fdfe61fb82823bb488556b70ac950596, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4950,9 +4950,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.054511663, y: 0.12160214}
+  m_Offset: {x: -0.0051512904, y: 0.0022775992}
   serializedVersion: 2
-  m_Radius: 0.93609
+  m_Radius: 2.4168046
 --- !u!114 &6837779407807104434
 MonoBehaviour:
   m_ObjectHideFlags: 0

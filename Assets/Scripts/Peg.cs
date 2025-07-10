@@ -18,7 +18,7 @@ public class Peg : MonoBehaviour
             FindObjectOfType<PegManager>().AddPeg(gameObject);
             if (isKeyPeg)
             {
-                GetComponent<SpriteRenderer>().color = Color.green;
+                GetComponent<SpriteRenderer>().color = Color.yellow;
             }
             else
             { 
