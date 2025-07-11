@@ -498,16 +498,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Howdy there, partner! \nUse them there Teleporters (Mincrats) to wrangle
-    that ball, and don\u2019t forget to hit A and D to scoot it left or right like
-    a good ol\u2019 square dance!\n\nNow listen close:\nBust all them orange pegs
-    to win the level, ya hear? But mind yourself\u2014if you run outta lives, it\u2019s
-    a big ol\u2019 GAME OVER, and you\u2019ll be startin\u2019 from scratch like
-    a cowpoke with a busted wagon wheel.\n\nFail the level and I\u2019ll be madder
-    than a bull at a rodeo! \nAnd one more thing\u2026\nDon\u2019t go trustin\u2019
-    that unicorn. He talks sweet, but that four-legged fibber\u2019s got more tricks
-    than a raccoon in the chicken coop. \n\nNow git out there and play like a true
-    country legend! "
+  m_text: 'Howdy Player welcome to the game here is how you play the game
+
+
+    Use
+    your A and D keys to move the bottom minecart which will teleport it to the top
+    cart.
+
+
+    Hit all the gold ores to win the level.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
