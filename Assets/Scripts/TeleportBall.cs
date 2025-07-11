@@ -31,11 +31,11 @@ public class TeleportBall : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Ball"))
         {
-            sfx.Play();
+            //sfx.Play();
             // Teleport the ball to the other side of the screen
             collision.transform.position = TeleportExit.transform.position;
             FindObjectOfType<PegManager>().DeleteAllPegs();
-            //refParticles.Play();
+            refParticles.Play();
         }
     }
 }
