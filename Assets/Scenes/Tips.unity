@@ -466,26 +466,26 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Howdy Player welcome to the game here is how you mine for yee o'' gold
-    ores.
+  m_text: 'Howdy new miner! Welcome to the mines. Here is how you mine for yee o''
+    gold ores.
 
 
-    We''ve gone ahead and dropped in a lighted bomb for ya''. The minecart
-    system in the gilded caverns work a little funky- if you catch what I''m getting
-    at. The minecart l'' drop the bomb from the one at the top of the system!
+    We''ve gone ahead and dropped in a lighted bomb for ya''. The
+    minecart system in the gilded caverns work a little funky- if you catch what
+    I''m getting at. The minecart l'' drop the bomb from the one at the top of the
+    system!
 
 
-    We
-    can only afford t'' drop three bombs per mine, so if yee drop all dem bombs,
-    your time in de mines is over cowboy!
+    We can only afford t'' drop three bombs per mine, so if yee drop
+    all dem bombs, your time in de mines is over cowboy!
 
 
-    Ye only goal is to mine all dem gold
-    ores in each mine- we can use your gold to get yee up to three bombs.
+    Ye only goal is to
+    mine all dem gold ores in each mine- we can use your gold to get yee up to three
+    bombs.
 
 
-    And
-    dont yee evar forget- Have fun!'
+    And dont yee evar forget- Have fun!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

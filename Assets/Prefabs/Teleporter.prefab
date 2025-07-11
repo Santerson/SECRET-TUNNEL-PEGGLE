@@ -4941,7 +4941,6 @@ MonoBehaviour:
   cartLeft: {fileID: 21300000, guid: ec61e6f03da611c43ba2075e828ca2d1, type: 3}
   speed: 12
   startingPosition: {x: 0, y: -4.5}
-  sfx: {fileID: 0}
 --- !u!50 &5601995915871672776
 Rigidbody2D:
   serializedVersion: 4
@@ -5179,6 +5178,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2786319803493083889, guid: d655b1b6055cdff48ac9573748336b84, type: 3}
       propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2786319803493083889, guid: d655b1b6055cdff48ac9573748336b84, type: 3}
+      propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2881545779304742406, guid: d655b1b6055cdff48ac9573748336b84, type: 3}
