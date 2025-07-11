@@ -9,6 +9,17 @@ public class PegManager : MonoBehaviour
     [SerializeField] int levelnumber;
     private List<GameObject> pegs = new List<GameObject>();
     int keyPegCount = 0;
+
+    int pegsThisRound = 0;
+
+    [SerializeField] AudioSource peg1;
+    [SerializeField] AudioSource peg2;
+    [SerializeField] AudioSource peg3;
+    [SerializeField] AudioSource peg4;
+    [SerializeField] AudioSource peg5;
+    [SerializeField] AudioSource peg6;
+    [SerializeField] AudioSource peg7;
+    [SerializeField] AudioSource peg9;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,6 +47,7 @@ public class PegManager : MonoBehaviour
             }
         }
         pegs.Clear();
+        pegsThisRound = 0;
     }
 
     private void epicGamerDub()
@@ -63,10 +75,44 @@ public class PegManager : MonoBehaviour
                     epicGamerDub();
                 }
             }
+            pegsThisRound++;
+            playAudio();
         }
         else
         {
             Debug.LogWarning("Peg already exists in PegManager: " + peg.name);
+        }
+    }
+
+    void playAudio()
+    {
+        switch (pegsThisRound)
+        {
+            case 1:
+                peg1.Play();
+                break;
+            case 2:
+                peg2.Play();
+                break;
+            case 3:
+                peg3.Play();
+                break;
+            case 4:
+                peg4.Play();
+                break;
+            case 5:
+                peg5.Play();
+                break;
+            case 6:
+                peg6.Play();
+                break;
+            case 7:
+                peg7.Play();
+                break;
+            default:
+                peg9.Play();
+                break;
+
         }
     }
 }
