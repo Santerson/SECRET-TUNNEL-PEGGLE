@@ -12,7 +12,6 @@ public class PaddleMovement : MonoBehaviour
     [SerializeField] Sprite cartLeft = null;
     [SerializeField] private float speed = 10f;
     [SerializeField] private Vector2 startingPosition = new Vector2(0f, -4.5f);
-    [SerializeField] private AudioSource sfx;
     // Start is called before the first frame update
     void Start()
     {
