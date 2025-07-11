@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Timeline;
 
 public class PegManager : MonoBehaviour
 {
@@ -54,6 +55,10 @@ public class PegManager : MonoBehaviour
     {
         Debug.Log("Good job, youre now a disapointment to society D:");
         // Add any additional logic for when all key pegs are collected.
+        if (levelnumber >= 3)
+        {
+            FindObjectOfType<AudioController>().playmenumusic();
+        }
         SceneManager.LoadScene("Lvl" + (levelnumber + 1));
     }
 

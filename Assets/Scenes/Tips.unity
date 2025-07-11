@@ -340,7 +340,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &485543576
+--- !u!1001 &1361322131
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -353,12 +353,20 @@ PrefabInstance:
       value: BackGround
       objectReference: {fileID: 0}
     - target: {fileID: 7418686720335109565, guid: fccc66fe8feac3b4991e2884f27e3ccb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.98822165
+      objectReference: {fileID: 0}
+    - target: {fileID: 7418686720335109565, guid: fccc66fe8feac3b4991e2884f27e3ccb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.83222556
+      objectReference: {fileID: 0}
+    - target: {fileID: 7418686720335109565, guid: fccc66fe8feac3b4991e2884f27e3ccb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.11
+      value: 0.0081
       objectReference: {fileID: 0}
     - target: {fileID: 7418686720335109565, guid: fccc66fe8feac3b4991e2884f27e3ccb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.28
+      value: 0.0162
       objectReference: {fileID: 0}
     - target: {fileID: 7418686720335109565, guid: fccc66fe8feac3b4991e2884f27e3ccb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -394,7 +402,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8410895414016379574, guid: fccc66fe8feac3b4991e2884f27e3ccb, type: 3}
       propertyPath: m_SortingOrder
-      value: -2
+      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1103,7 +1111,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1498481263}
-  - {fileID: 485543576}
   - {fileID: 1514076361}
   - {fileID: 1556905028}
   - {fileID: 349432951}
+  - {fileID: 1361322131}
