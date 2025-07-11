@@ -6,6 +6,7 @@ public class TeleportBall : MonoBehaviour
 {
     [SerializeField] private GameObject TeleportExit = null;
     [SerializeField] ParticleSystem refParticles = null;
+    [SerializeField] private AudioSource sfx;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,10 +31,11 @@ public class TeleportBall : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Ball"))
         {
+            sfx.Play();
             // Teleport the ball to the other side of the screen
             collision.transform.position = TeleportExit.transform.position;
             FindObjectOfType<PegManager>().DeleteAllPegs();
-            refParticles.Play();
+            //refParticles.Play();
         }
     }
 }

@@ -6,7 +6,6 @@ public class BallGravCap : MonoBehaviour
 {
     [SerializeField] private float maxYSpeed = 10f;
     Rigidbody2D rb = null;
-
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
