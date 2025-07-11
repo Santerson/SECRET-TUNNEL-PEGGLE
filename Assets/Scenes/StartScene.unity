@@ -1170,7 +1170,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1001 &1373988587
+--- !u!1001 &1201292942
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -1188,7 +1188,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7418686720335109565, guid: fccc66fe8feac3b4991e2884f27e3ccb, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.83222556
+      value: 0.8362242
       objectReference: {fileID: 0}
     - target: {fileID: 7418686720335109565, guid: fccc66fe8feac3b4991e2884f27e3ccb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1196,7 +1196,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7418686720335109565, guid: fccc66fe8feac3b4991e2884f27e3ccb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0162
+      value: -0.0081
       objectReference: {fileID: 0}
     - target: {fileID: 7418686720335109565, guid: fccc66fe8feac3b4991e2884f27e3ccb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2062,6 +2062,6 @@ SceneRoots:
   - {fileID: 1049725350}
   - {fileID: 1685496465}
   - {fileID: 1432309814}
-  - {fileID: 1373988587}
   - {fileID: 1898355133}
   - {fileID: 1941071763}
+  - {fileID: 1201292942}
