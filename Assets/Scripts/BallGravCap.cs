@@ -18,7 +18,7 @@ public class BallGravCap : MonoBehaviour
         StartCoroutine(startLate());
     }
 
-    IEnumerator startLate()
+    public IEnumerator startLate()
     {
         currSpeed = 0;
         

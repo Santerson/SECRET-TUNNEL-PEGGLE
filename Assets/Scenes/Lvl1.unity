@@ -324,6 +324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57bc0c926f62a884786a9c4ba1d4f564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  respawnPS: {fileID: 5628474923948543184, guid: 6b22eb78b234b9648a87dcc820561c9b, type: 3}
 --- !u!61 &169728627
 BoxCollider2D:
   m_ObjectHideFlags: 0

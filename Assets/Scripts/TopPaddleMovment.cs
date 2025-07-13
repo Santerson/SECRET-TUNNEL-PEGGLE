@@ -19,8 +19,17 @@ public class TopPaddleMovment : MonoBehaviour
     }
     private void Update()
     {
+        float xOffset;
+        if (Input.GetKey(KeyCode.Space))
+        {
 
-        float xOffset = Mathf.Sin(Time.time * 1.2f) * amplitude;
+            xOffset = Mathf.Sin(Time.time * 1.2f)  * amplitude;
+        }
+        else
+        {
+            xOffset = Mathf.Sin(Time.time * 1.2f) * amplitude;
+
+        }
 
 
         transform.position = startPosition + Vector3.right * xOffset;
